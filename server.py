@@ -2,8 +2,8 @@ import http.server
 import socketserver
 import os
 
+DIRECTORY = "/."
 os.chdir(DIRECTORY)
-DIRECTORY = "/path/to/your/directory"
 
 # Define the port you want to serve on
 PORT = 8080
